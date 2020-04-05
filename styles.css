@@ -37,6 +37,15 @@
     }
 }
 
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .mahdi-logo{
     animation: 0.75s ease-out 0s 1 slideFromLeft;
     top: 50%
@@ -59,11 +68,13 @@
     color: black;
     font-size: 22px;
     margin: 40px;
+    transition: transform .2s;
 }
 
 .top-menu a:hover{
     color:#a6a6a6;
     transition: .5s ease;
+    transform: scale(1.5);
 }
 
 body{
@@ -97,7 +108,7 @@ body{
   animation: 0.75s ease-out 0s 1 slideFromDown;
 }
 
-#frontpage-hr{
+.global-hr{
     width: 85%;
     left:7%;
     position: absolute;
@@ -162,4 +173,25 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+#resume-title{
+    font-family: forma-djr-banner, sans-serif;
+    font-size: 40px;
+}
+
+#info-p{
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    width: 75%;
+}
+
+#resume-div{
+    animation: 2s ease-out 0s 1 fadeIn;
+}
+
+#first-p{
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+
 
