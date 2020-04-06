@@ -81,49 +81,15 @@ body{
     background-color: white;
 }
 
-#mahdi-about-p{
-    width: 50%;
-    height: auto;
-    position: absolute;
-    left: 35%;
-    font-family: forma-djr-banner, sans-serif;
-    font-size: 22px;
-    letter-spacing: 1.2px;
-}
-
-#mahdi-about-img{
-    position: absolute;
-    height: auto;
-    left: 10%;
-}
-
-#mahdi-about{
-  border-radius: 25px;
-  border: 1.2px solid #5e5e5e;
-  padding: 20px;
-  width: 1100px;
-  height: 300px;
-  position: absolute;
-  left: 5%;
-  animation: 0.75s ease-out 0s 1 slideFromDown;
-}
-
-.global-hr{
-    width: 85%;
-    left:7%;
-    position: absolute;
-}
-
 .footer{
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
     height: 12%;
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: auto;
 }
 
 #phone-sym{
@@ -201,12 +167,11 @@ body{
     left:10%;
 }
 
-#education hr{
-    width: 120%;
-}
+
 
 #education p{
     font-family: forma-djr-banner, sans-serif;
+    display: inline-block;
 }
 
 .subject-header{
@@ -222,11 +187,22 @@ body{
     display: inline-block;
 }
 
+.subject-header hr{
+    width: 250%;
+}
+
 #experience{
     position: absolute;
     left: 10%;
 }
 
+#education-p{
+    display: inline-block;
+}
 
-
+#defjam-block{
+    font-family: forma-djr-banner, sans-serif;
+    position: relative;
+    top: 70px;
+}
 
