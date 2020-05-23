@@ -60,9 +60,24 @@
 
 .top-menu{
     animation: 0.75s ease-out 0s 1 slideFromRight;
+    text-align: center;
+    display: inline-flex;
 }
 
 .top-menu a{
+    display: inline-block;
+    font-family: 'bench-grinder-tilting', sans-serif;
+    text-decoration:none;
+    color: black;
+    font-size: 22px;
+    margin: 40px;
+    transition: transform .2s;
+}
+
+.top-menu button{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
     font-family: 'bench-grinder-tilting', sans-serif;
     text-decoration:none;
     color: black;
@@ -74,14 +89,46 @@
 .top-menu a:hover{
     color:#a6a6a6;
     transition: .5s ease;
-    transform: scale(1.5);
 }
+
+.top-menu button:hover{
+    color:#a6a6a6;
+    transition: .5s ease;
+}
+
+.dropdown-case-studies{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-case-studies:hover .dropdown-content{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+  }
+
+.dropdown-content a{
+    font-family: 'bench-grinder-tilting', sans-serif;
+    text-decoration:none;
+    color: black;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.dropdown-content a:hover {
+    color:#a6a6a6;
+    transition: .5s ease;
+}
+
+
 
 body{
     background-color: white;
 }
 
-.footer{
+#resume-footer{
     position: absolute;
     left: 0;
     bottom: -125%;
