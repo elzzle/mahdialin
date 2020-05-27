@@ -96,25 +96,31 @@
     transition: .5s ease;
 }
 
-.dropdown-case-studies{
-    position: relative;
-    display: inline-block;
+.dropdown-case-studies:hover .dropdown-content{
+    display: block;
 }
 
-.dropdown-case-studies:hover .dropdown-content{
+.dropdown-case-studies{
+    margin: 0;
+    float: left;
     display: inline-block;
-}
+} 
 
 .dropdown-content{
     display: none;
+    position: relative;
+    min-width: 100px;
+    float: none;
   }
 
 .dropdown-content a{
     font-family: 'bench-grinder-tilting', sans-serif;
     text-decoration:none;
+    display: block;
     color: black;
     font-size: 22px;
-    margin: 10px;
+    margin: 0;
+    text-align: center;
 }
 
 .dropdown-content a:hover {
