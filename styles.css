@@ -314,7 +314,7 @@ body{
 #zillion-videos{
     text-align: center;
     left:25%;
-    top: 80%;
+    top: 90%;
     position:absolute;
 }
 
@@ -326,8 +326,29 @@ body{
 #zillion-flicks{
     text-align: center;
     left: 3%;
-    top: 255%;
+    top: 285%;
     position: absolute;
+}
+
+#ramed-videos{
+    text-align: center;
+    left:-1%;
+    top: 90%;
+    position:absolute;
+}
+
+#ramed-flicks{
+    text-align: center;
+    left:-1%;
+    top: 390%;
+    position:absolute;
+}
+
+#defjam-video{
+    text-align: center;
+    left:17%;
+    top: 90%;
+    position:absolute;
 }
 
 
